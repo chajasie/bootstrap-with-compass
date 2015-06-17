@@ -1,8 +1,15 @@
-body{
-    background-color:red;
+$font-stack:    Helvetica, sans-serif;
+$primary-color: #333;
+$meineVariabel: #aaabbb;
+
+.test {
+  font: 100% $font-stack;
+  background-color: $primary-color;
 }
 
-
-.test{
-    background-color: #aaabbb;
+.superTest{
+    color: $meineVariabel;
+}
+.phpStorm {
+    background-color: #122b40;
 }
