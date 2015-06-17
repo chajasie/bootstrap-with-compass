@@ -1,4 +1,45 @@
-/* line 1, ../sass/customized.scss */
-body {
-  background-color: red;
-}
+/*
+Error: Invalid CSS after "$farbe ": expected ":", was "= #aaabbb;"
+        on line 4 of c:/xampp/htdocs/bootstrap-sass-project-with-compass/sass/customized.scss
+
+1: body{
+2:     background-color:red;
+3: }
+4: $farbe = #aaabbb;
+5: 
+6: .test{
+7:     background-color: #aaabbb;
+8: }
+
+Backtrace:
+c:/xampp/htdocs/bootstrap-sass-project-with-compass/sass/customized.scss:4
+c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.14/lib/sass/scss/parser.rb:1162:in `expected'
+c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.14/lib/sass/scss/parser.rb:1098:in `expected'
+c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.14/lib/sass/scss/parser.rb:1093:in `tok!'
+c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.14/lib/sass/scss/parser.rb:602:in `variable'
+c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.14/lib/sass/scss/parser.rb:657:in `block_child'
+c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.14/lib/sass/scss/parser.rb:650:in `block_contents'
+c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.14/lib/sass/scss/parser.rb:117:in `stylesheet'
+c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.14/lib/sass/scss/parser.rb:42:in `parse'
+c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.14/lib/sass/engine.rb:393:in `_to_tree'
+c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.14/lib/sass/engine.rb:268:in `render'
+c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:17:in `block in render'
+c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:29:in `with_import_scope'
+c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:16:in `render'
+c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.14/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
+c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.14/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.14/lib/sass/plugin/compiler.rb:209:in `each'
+c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.14/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.14/lib/sass/plugin/compiler.rb:470:in `on_file_changed'
+c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.14/lib/sass/plugin/compiler.rb:328:in `block in watch'
+c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.14/vendor/listen/lib/listen/listener.rb:252:in `call'
+c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.14/vendor/listen/lib/listen/listener.rb:252:in `on_change'
+c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.14/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
+c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.14/vendor/listen/lib/listen/adapters/polling.rb:48:in `call'
+c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.14/vendor/listen/lib/listen/adapters/polling.rb:48:in `poll_changed_directories'
+c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.4.14/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"$farbe \": expected \":\", was \"= #aaabbb;\"\A         on line 4 of c:/xampp/htdocs/bootstrap-sass-project-with-compass/sass/customized.scss\A \A 1: body{\A 2:     background-color:red;\A 3: }\A 4: $farbe = #aaabbb;\A 5: \A 6: .test{\A 7:     background-color: #aaabbb;\A 8: }"; }
